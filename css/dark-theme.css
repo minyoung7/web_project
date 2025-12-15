@@ -1,0 +1,869 @@
+/* dark-theme.css - 다크모드 스타일 (업계 표준 색상 적용) */
+
+:root {
+    --primary-bg: #121212;
+    --primary-text: #fff;
+    --secondary-bg: #1a1a1a;
+    --border-color: #333;
+}
+
+/* 다크모드 스타일 */
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+#header {
+    background-color: #1a1a1a;
+    border-bottom: none;
+    height: 60px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    border-top: 1px solid #2a2a2a;
+}
+
+.search_form input {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.search_form button i {
+    color: #fff !important;
+}
+
+.auth_btns a {
+    color: #fff !important;
+}
+
+.auth_btns a:hover {
+    color: #fff !important;
+}
+
+.main_menu_bar .menu_item .nav_item {
+    color: #aaa;
+}
+
+.main_menu_bar .menu_item .nav_item:hover {
+    color: #fff;
+}
+
+.content_header h2 {
+    color: #fff;
+}
+
+.more_btn {
+    color: #aaa;
+}
+
+/* 리뷰가 없을 때 메시지 박스 스타일 - 다크모드 */
+.no_reviews {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #aaa !important;
+    text-align: center !important;
+    padding: 30px !important;
+    margin-top: 20px !important;
+}
+
+/* 메인 슬라이더 */
+.main-slider {
+    border: 1px solid #121212;
+    background-color: #121212;
+}
+
+/* 카테고리 탭 스타일 */
+.movie_category_tabs .category_tab {
+    color: #aaa;
+}
+
+.movie_category_tabs .category_tab.active {
+    color: #fff;
+    border-bottom-color: #e50914;
+    font-weight: bold;
+}
+
+.movie_category_tabs .category_tab:hover {
+    color: #fff;
+}
+
+.category_tabs .category_tab {
+    color: #aaa;
+}
+
+.category_tabs .category_tab.active {
+    color: #fff;
+    border-bottom-color: #e50914;
+    font-weight: bold;
+}
+
+.category_tabs .category_tab:hover {
+    color: #fff;
+}
+
+/* 영화 상세 페이지 */
+.movie_detail {
+    color: #fff;
+}
+
+.movie_detail .movie_title {
+    color: #fff;
+}
+
+.movie_detail .rating {
+    color: #fff;
+}
+
+.movie_detail .info_item {
+    color: #fff;
+}
+
+.movie_detail .info_item b {
+    color: #aaa;
+}
+
+.movie_detail .movie_synopsis {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+/* 평점 섹션 */
+.review_form {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.review_title {
+    color: #fff;
+}
+
+textarea {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.star_rating i {
+    color: #666;
+}
+
+.star_rating i.active {
+    color: #ffd700;
+}
+
+/* 카드, 컨테이너 스타일 */
+.movie_card,
+.collection_card,
+.comment_item,
+.post_container {
+    background-color: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    color: #fff;
+    box-shadow: none !important;
+}
+
+/* 알림창 스타일 */
+.alert,
+.notification {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+/* 버튼 스타일 */
+button,
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #444;
+}
+
+/* 테이블 스타일 */
+table,
+th,
+td {
+    border-color: #333;
+}
+
+th {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+td {
+    color: #fff;
+}
+
+.side_menu .menu_list .menu_item {
+    color: #aaa;
+}
+
+.side_menu .menu_list .menu_item:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* genre_filter.php 다크모드시에 적용 */
+.genre_filter {
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2) !important;
+    /* 더 은은한 흰색 그림자 */
+    border: 1px solid #515151 !important;
+    /* 다크모드에 맞는 테두리 추가 */
+    border-radius: 5px;
+}
+
+/* 캐러셀 제목 스타일 - 다크모드 */
+h2.carousel-title,
+h3.carousel-title {
+    color: #fff !important;
+}
+
+/* 더보기 버튼 - 다크모드 */
+.more_btn {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+/* 캐러셀 정보 영역의 제목 */
+.carousel-info .carousel-title {
+    color: #fff !important;
+}
+
+/* 관리자 페이지 제목 - 다크모드 전용 */
+.admin_container .title {
+    color: #fff !important;
+}
+
+/* ========================================
+   메인페이지(index.php) 전용 다크모드 스타일
+   ======================================== */
+
+/* 메인페이지 배경 */
+.page-index {
+    background-color: #121212 !important;
+}
+
+.page-index .main_wrapper {
+    background-color: #121212 !important;
+}
+
+/* 메인 슬라이더 */
+.page-index .main-slider {
+    border: 1px solid #121212;
+    background: #1a1a1a !important;
+}
+
+/* 슬라이더 헤더 제목 */
+.page-index .slider-header h2 {
+    color: #fff !important;
+}
+
+/* 슬라이더 탭 - 기존 버튼 스타일 패턴 적용 */
+.page-index .slider-tab {
+    border: 1px solid #444;
+    color: #aaa !important;
+    background-color: transparent;
+}
+
+.page-index .slider-tab.active {
+    border: 1px solid #fff;
+    background-color: #fff !important;
+    color: #121212 !important;
+}
+
+.page-index .slider-tab.active:hover {
+    background-color: #ddd !important;
+}
+
+/* 영화 카드 - 박스오피스 큰 카드 */
+.page-index .movie-card {
+    background: linear-gradient(to bottom, #3a3b3f 0%, #2f3034 100%) !important;
+    border: 1px solid #52535a !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.page-index .carousel-item {
+    background: #121212 !important;
+    border: none !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* 카드 안쪽 내용 영역 - 박스오피스 스타일 적용 */
+.page-index .carousel-item > a {
+    background: linear-gradient(to bottom, #3a3b3f 0%, #2f3034 100%) !important;
+    border: none !important;
+}
+
+
+.page-index .movie-title {
+    color: #fff !important;
+}
+
+.page-index .movie-info {
+    color: #aaa !important;
+}
+
+/* 영화 카드 버튼 */
+.page-index .movie-card button,
+.page-index .movie-card .btn {
+    background: linear-gradient(to bottom, #3a3b3f 0%, #2f3034 100%) !important;
+    color: #ffffff !important;
+    border: 1px solid #52535a !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.page-index .movie-card button:hover,
+.page-index .movie-card .btn:hover {
+    background: linear-gradient(to bottom, #45464a 0%, #3a3b3f 100%) !important;
+    border-color: #62636a !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 카테고리 탭 - 기존 category_tabs 패턴 적용 */
+.page-index .category_tabs,
+.page-index .movie_category_tabs {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.page-index .category_tab {
+    color: #aaa !important;
+}
+
+.page-index .category_tab.active {
+    color: #fff !important;
+    border-bottom-color: #e50914 !important;
+    font-weight: bold !important;
+}
+
+.page-index .category_tab:hover {
+    color: #fff !important;
+}
+
+/* 섹션 제목 */
+.page-index .section_title {
+    color: #fff !important;
+}
+
+/* 이벤트 아이템 - 기존 카드 패턴 적용 */
+.page-index .event_item {
+    background: #1e1e1e !important;
+    border: 1px solid #2a2a2a !important;
+}
+
+.page-index .event_title {
+    color: #fff !important;
+}
+
+.page-index .event_date {
+    color: #aaa !important;
+}
+
+/* 캐러셀 타이틀 - 기존 carousel-title 패턴 적용 */
+.page-index .carousel-title {
+    color: #fff !important;
+}
+
+
+/* 슬라이더 화살표 */
+.page-index .slider-arrow {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+}
+
+.page-index .slider-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 캐러셀 화살표 */
+.page-index .carousel-arrow {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+}
+
+.page-index .carousel-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 광고 슬라이더 */
+.page-index .ad_slider {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* 광고 슬라이더 화살표 */
+.page-index .ad_arrow {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+}
+
+.page-index .ad_arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 광고 인디케이터 */
+.page-index .ad_indicator {
+    background-color: #444 !important;
+}
+
+.page-index .ad_indicator.active {
+    background-color: #fff !important;
+}
+/* 박스오피스 카드 - 다크모드 색상 수정 */
+
+/* 영화 제목 */
+.page-index .card-title {
+    color: #ffffff !important;
+}
+
+/* 평점 숫자 (8.0 같은 부분) */
+.page-index .card-meta .card-rating {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* 평점 별 아이콘 */
+.page-index .card-meta .card-rating i {
+    color: #ffd700 !important;
+}
+
+/* 예매율 (19% 부분) */
+.page-index .card-booking {
+    color: #b8bbbe !important;
+}
+
+.page-index .card-booking strong {
+    color: #ff6b6b !important;
+    font-weight: 700 !important;
+}
+
+/* 누적 관객 (136.0만명 부분) */
+.page-index .card-views {
+    color: #b8bbbe !important;
+}
+
+
+/* 탭바 카드 내용 스타일 - 박스오피스와 동일하게 */
+.page-index .carousel-movie-title {
+    color: #ffffff !important;
+}
+
+.page-index .carousel-movie-meta {
+    color: #b8bbbe !important;
+}
+
+.page-index .carousel-movie-meta span {
+    color: #b8bbbe !important;
+}
+
+.page-index .carousel-rating-badge {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.page-index .carousel-rating-badge i {
+    color: #ffd700 !important;
+}
+
+/* 탭바 카드 호버 시 윗부분 잘림 방지 */
+.page-index .carousel-container {
+    overflow: visible !important;
+}
+
+
+/* 탭바 카드 호버 시 윗부분 잘림 방지 */
+.page-index .carousel-container {
+    overflow-y: visible !important;
+    overflow-x: hidden !important;
+}
+
+/* 가로 삐져나옴 방지 */
+body.page-index,
+.page-index body {
+    overflow-x: hidden !important;
+}
+/* ========================================
+   movies.php 전용 다크모드 스타일
+   ======================================== */
+
+/* 탭바 카드 스타일 - 다크모드 */
+.page-movies .movie_card > a {
+    background: linear-gradient(to bottom, #3a3b3f 0%, #2f3034 100%) !important;
+    border: 1px solid #52535a !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6) !important;
+}
+
+.page-movies .movie_title {
+    color: #ffffff !important;
+}
+
+.page-movies .movie_meta {
+    color: #b8bbbe !important;
+}
+
+.page-movies .movie_meta span {
+    color: #b8bbbe !important;
+}
+
+.page-movies .movie_rating_badge {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.page-movies .movie_rating_badge i {
+    color: #ffd700 !important;
+}
+
+/* 예매하기 버튼 - 다크모드 */
+.page-movies .book_btn {
+    background-color: #fff !important;
+    background: #fff !important;
+    color: #e50914 !important;
+    border: 1px solid #e50914 !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.page-movies .book_btn:hover {
+    background-color: #f5f5f5 !important;
+    background: #f5f5f5 !important;
+    border-color: #e50914 !important;
+    color: #e50914 !important;
+    box-shadow: none !important;
+}
+
+/* TOP 버튼 - 다크모드 */
+.top_btn {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+}
+
+.top_btn:hover {
+    background-color: #e50914 !important;
+}
+/* ========================================
+   event.php 전용 다크모드 스타일
+   ======================================== */
+
+/* 이벤트 페이지 제목 */
+.event_heading {
+    color: #fff !important;
+}
+
+/* 이벤트 아이템 - 메인페이지와 동일 */
+.event_item {
+    background: #1e1e1e !important;
+    border: 1px solid #2a2a2a !important;
+}
+
+.event_title {
+    color: #fff !important;
+}
+
+.event_date {
+    color: #aaa !important;
+}
+
+/* 이벤트 없을 때 메시지 */
+.no_events {
+    background: #1e1e1e !important;
+    border: 1px solid #2a2a2a !important;
+    color: #888 !important;
+}
+
+.no_events h3 {
+    color: #aaa !important;
+}
+
+.no_events p {
+    color: #666 !important;
+}
+/* ========================================
+   movie_detail.php 전용 다크모드 스타일
+   ======================================== */
+
+/* 영화 헤더 */
+.movie_header {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 35px 40px !important;
+    margin-top: -35px !important;
+    margin-left: -40px !important;
+    margin-right: -40px !important;
+}
+
+.movie_poster img {
+    border-radius: 8px !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+.movie_title {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+.meta_label {
+    color: #888 !important;
+    font-weight: 500 !important;
+}
+
+/* 액션 버튼 */
+.action_btn {
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    transition: all 0.3s ease !important;
+}
+
+.action_btn:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.action_btn.active {
+    background: #e50914 !important;
+    border-color: #e50914 !important;
+}
+
+/* 극장 버튼 */
+.theater_btn {
+    background: #fff !important;
+    color: #e50914 !important;
+    border: 2px solid #e50914 !important;
+    border-radius: 6px !important;
+    transition: all 0.3s ease !important;
+}
+
+.theater_btn:hover {
+    background: #e50914 !important;
+    color: #fff !important;
+}
+
+/* 롯데시네마 - 빨간색 */
+.theater_btn.lotte {
+    background: #fff !important;
+    color: #ed1c24 !important;
+    border: 2px solid #ed1c24 !important;
+}
+.theater_btn.lotte:hover {
+    background: #ed1c24 !important;
+    color: #fff !important;
+}
+
+/* CGV - 빨간색 */
+.theater_btn.cgv {
+    background: #fff !important;
+    color: #fb4357 !important;
+    border: 2px solid #fb4357 !important;
+}
+.theater_btn.cgv:hover {
+    background: #fb4357 !important;
+    color: #fff !important;
+}
+
+/* 메가박스 - 보라색 */
+.theater_btn.megabox {
+    background: #fff !important;
+    color: #352263 !important;
+    border: 2px solid #352263 !important;
+}
+.theater_btn.megabox:hover {
+    background: #352263 !important;
+    color: #fff !important;
+}
+
+/* 시놉시스 */
+.movie_synopsis {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    color: #ddd !important;
+}
+
+/* 예고편 */
+.trailer_player {
+    border-radius: 8px !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+.no_trailer {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 8px !important;
+    color: #666 !important;
+}
+
+/* 리뷰 폼 */
+.review_form {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+}
+
+.review_title {
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.star_rating .fa-star {
+    color: #333 !important;
+    transition: all 0.2s ease !important;
+}
+
+.star_rating .fa-star:hover,
+.star_rating .fa-star.active {
+    color: #ffd700 !important;
+}
+
+.review_content textarea {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+}
+
+.review_content textarea:focus {
+    border-color: #e50914 !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.review_content textarea::placeholder {
+    color: #666 !important;
+}
+
+.review_cancel {
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.review_cancel:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.review_submit {
+    background: #e50914 !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.review_submit:hover {
+    background: #c40812 !important;
+}
+
+/* 리뷰 카드 */
+.review_card {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+    transition: all 0.3s ease !important;
+}
+
+.review_card:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.review_card .star_rating .fa-star {
+    color: #ffd700 !important;
+}
+
+.rating_score {
+    color: #ffd700 !important;
+    font-weight: 600 !important;
+}
+
+.review_card .review_content {
+    color: #ddd !important;
+}
+
+.review_footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #888 !important;
+}
+
+.review_edit,
+.review_delete {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    background: transparent !important;
+    color: #aaa !important;
+    border-radius: 6px !important;
+    transition: all 0.2s ease !important;
+}
+
+.review_edit:hover,
+.review_delete:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.review_delete:hover {
+    background: rgba(229, 9, 20, 0.1) !important;
+    color: #e50914 !important;
+    border-color: #e50914 !important;
+}
+
+/* 수정 폼 */
+.edit-rating .fa-star {
+    color: #333 !important;
+    transition: all 0.2s ease !important;
+}
+
+.edit-rating .fa-star:hover,
+.edit-rating .fa-star.active {
+    color: #ffd700 !important;
+}
+
+.edit-textarea {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+}
+
+.edit-save {
+    background: #e50914 !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+}
+
+.edit-save:hover {
+    background: #c40812 !important;
+}
+
+.edit-cancel {
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+}
+
+.edit-cancel:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* 리뷰 없을 때 */
+.no_reviews {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+}
+
+.no_reviews p {
+    color: #666 !important;
+}
