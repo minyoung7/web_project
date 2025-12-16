@@ -4,7 +4,7 @@
 #### 아직배포는 못했으며, 웹호스팅을 먼저해볼생각입니다.(차후에)
 ### 기술 스택
 - **Frontend**: HTML5, CSS3, JavaScript, Fetch API, AJAX
-  - 초기 팀 프로젝트에서 SCSS 사용 (현재 일부 파일만 유지)
+  - 초기 팀 프로젝트에서 SCSS 사용 ( 몇개 일부 파일만 유지, 현재는 CSS 위주로 작업)
 - **Backend**: PHP
 - **Database**: MySQL
 - **External API**: KOBIS API, KMDb API, Kakao Map API, Gemini AI API
