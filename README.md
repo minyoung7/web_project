@@ -2,6 +2,17 @@
 
 ### 이 프로젝트는 팀프로젝트 이후 개인적으로 기능추가 및 개선(ux/ui) 한 프로젝트 입니다.
 #### 아직배포는 못했으며, 웹호스팅을 먼저해볼생각입니다.(차후에)
+### 기술 스택
+- **Backend**: PHP, MySQL
+- **Frontend**: HTML5, CSS3, JavaScript
+- **External API**: KOBIS, KMDb, Gemini AI, Kakao Map
+
+### 실행 방법
+1. XAMPP 등 로컬 서버 환경 설정
+2. `sql/moviedb.sql` 파일로 DB 생성
+3. `inc/` 폴더 내 설정 파일에 API 키 설정
+4. 브라우저에서 접속
+
 
 ### 코드 구조 안내
 일부 **이전 구현 코드**가 포함되어 있습니다. 현재 사용하지 않지만, 다른 구현 방식의 참고용으로 보존했습니다.
